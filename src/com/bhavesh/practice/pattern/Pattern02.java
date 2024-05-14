@@ -36,6 +36,7 @@ public class Pattern02 {
                 System.out.print("*" + "\t");
                 rowNo++;
             }
+
             System.out.println();
             columNo++;
         }
