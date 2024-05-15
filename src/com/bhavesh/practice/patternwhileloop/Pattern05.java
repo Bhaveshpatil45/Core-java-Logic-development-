@@ -1,17 +1,17 @@
-package com.bhavesh.practice.pattern;
+package com.bhavesh.practice.patternwhileloop;
 
 public class Pattern05 {
     private static final int PATTERN_SIZE = 5;
 
     /*    Expected output -
                 *
-               * *
               * * *
-             * * * *
             * * * * *
-             * * * *
+          * * * * * * *
+        * * * * * * * * *
+          * * * * * * *
+            * * * * *
               * * *
-               * *
                 *
      */
     public static void main(String[] args) {

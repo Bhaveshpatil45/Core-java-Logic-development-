@@ -1,4 +1,4 @@
-package com.bhavesh.practice.pattern;
+package com.bhavesh.practice.patternwhileloop;
 
 public class Pattern04 {
 

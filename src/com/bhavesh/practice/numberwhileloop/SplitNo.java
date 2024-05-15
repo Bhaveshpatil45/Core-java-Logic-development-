@@ -1,4 +1,4 @@
-package com.bhavesh.practice.number;
+package com.bhavesh.practice.numberwhileloop;
 
 import java.util.Scanner;
 
