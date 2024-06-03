@@ -1,6 +1,7 @@
-package com.bhavesh.practice.patternforloop;
+package com.bhavesh.practice.Loops.patternwhileloop;
 
 public class Pattern04 {
+
     private static final int PATTERN_SIZE = 5;
 
     /*
@@ -12,17 +13,26 @@ public class Pattern04 {
               * * * * *
      */
     public static void main(String[] args) {
-        for (int columNo = 0;columNo < PATTERN_SIZE; columNo++){
 
+        int columNo = 0;
+        while(columNo < PATTERN_SIZE){
 
-
-            for (int space = 0;space < PATTERN_SIZE - columNo -1; space++){
+            int rowNo = 0;
+            int space = 0;
+            while (space < PATTERN_SIZE - columNo -1){
                 System.out.print(" ");
+                space++;
             }
-            for (int rowNo = 0; rowNo <= columNo; rowNo++) {
+
+
+            while (rowNo <= columNo) {
                 System.out.print("* ");
+                rowNo++;
             }
             System.out.println();
+            columNo++;
         }
     }
 }
+
+

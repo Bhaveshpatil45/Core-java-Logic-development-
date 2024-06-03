@@ -1,4 +1,4 @@
-package com.bhavesh.practice.patternwhileloop;
+package com.bhavesh.practice.Loops.patternwhileloop;
 
 public class Pattern03 {
     private static final int PATTERN_SIZE = 5;
