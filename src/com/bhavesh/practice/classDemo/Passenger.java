@@ -9,7 +9,7 @@ public class Passenger {
 
     String gender;
 
-    protected int ticketPrice;
+    protected  int ticketPrice;
 
     public float luggageSize;
 
